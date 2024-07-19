@@ -195,7 +195,7 @@ swiper:
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   wave: true # 轮播图底下的波浪特效
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
-  defaultImg: 'https://pic1.zhimg.com/v2-af3ccef61cf58b1a70765747cc1bbeac_b.jpg' # 图片，没有则随机选取
+  defaultImg: '/images/7.jpg' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: '' # 标题
@@ -281,7 +281,7 @@ inputEffects:
 
 # 背影彩带
 ribbon:
-  on: true
+  on: false
 
 # live-2d(左下角动画人物)
 live2d:
@@ -592,7 +592,7 @@ color_scheme:
   # 通用颜色
   common:
     # 主题色
-    theme: 'rgba(66, 185, 133, 0.8)'
+    theme: 'rgba(125,182,222,0.8)'
     # 主题色块内部的文字颜色
     inner: '#fff'
     # 链接色 a标签
